@@ -106,7 +106,7 @@ nav.header__menu ul li a:hover {
 }
 a.intro__btn {
     text-align: center;
-    background-color: #ffbd1a;
+    background: linear-gradient(#ffbd1a, #ff831d);
     border: 2px solid #ff831d;
     border-radius: 8px;
     color: #000;
@@ -114,17 +114,17 @@ a.intro__btn {
     font-size: 14px;
     padding: 5px 25px;
     margin-bottom: 50px;
+    transition: all 1s;
 }
 a.intro__btn:hover {
     text-align: center;
-    padding: 10px 35px;
-    background-color: #ff831d;
+    background: linear-gradient(#ff831d, #ffbd1a);
     border: 2px solid #ffbd1a;
     border-radius: 8px;
     color: #fff;
     font-family: 'Oswald', sans-serif;
     font-size: 14px;
-    padding: 5px 25px;
+    padding:5px 25px;
     margin-bottom: 50px;
 }
 
